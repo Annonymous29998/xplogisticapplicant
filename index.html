@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platinum Logistics - Join Our Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Favicon - Website Icon with Transparent Background -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav-icon-transparent.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav-icon-transparent.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav-icon-transparent.png">
+    <link rel="mask-icon" href="images/fav-icon-transparent.png" color="#1e40af">
+    
+    <!-- Formspree script will be added in script.js -->
+    
+    <!-- Preload hero image for faster loading -->
+    <link rel="preload" href="images/herobd.png" as="image">
+    
+    <!-- Add loading optimization meta tags -->
+    <meta name="theme-color" content="#1e40af">
+    <meta name="description" content="Join Platinum Logistics - Professional trucking and freight services">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://platinumlogistics.com/wp-content/uploads/2024/06/pl-reg-about.png" alt="Platinum Logistics Logo" class="logo-image">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#apply">Apply Now</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#apply">Apply Now</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>JOIN OUR GROWING TEAM.<br>SHAPE THE FUTURE OF LOGISTICS</h1>
+            <a href="#apply" class="cta-button">APPLY NOW</a>
+        </div>
+    </section>
+
+    <!-- Floating Transition Icon -->
+    <div class="transition-icon">
+        <div class="checkmark-circle">
+            <i class="fas fa-check"></i>
+        </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2>Why Choose Platinum Logistics?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>FULL-TIME POSITIONS</h3>
+                    <p>Stable, long-term employment opportunities with consistent scheduling and benefits.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>COMPETITIVE BENEFITS</h3>
+                    <p>Comprehensive health, dental, vision, and retirement plans to support you and your family.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>CAREER GROWTH</h3>
+                    <p>Clear advancement paths, training programs, and opportunities for professional development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section class="application" id="apply">
+        <div class="container">
+            <div class="form-header">
+                <h2>Personal Information</h2>
+                <div class="security-notice">
+                    <i class="fas fa-lock"></i>
+                    <p>Your information is encrypted and stored securely for employment purposes only. We never share data with third parties.</p>
+                </div>
+            </div>
+            
+            <form id="application-form" enctype="multipart/form-data">
+                <div class="form-grid">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address *</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                    <div class="form-group">
+                        <label for="ssn">SSN</label>
+                        <input type="text" id="ssn" name="ssn" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthPlace">Place of Birth</label>
+                        <input type="text" id="birthPlace" name="birthPlace" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="fatherName">Father's Full Name</label>
+                        <input type="text" id="fatherName" name="fatherName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="motherName">Mother's Full Name</label>
+                        <input type="text" id="motherName" name="motherName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="maidenName">Mother's Maiden Name</label>
+                        <input type="text" id="maidenName" name="maidenName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="position">Position Applying For</label>
+                        <select id="position" name="position" required>
+                            <option value="">Select a position</option>
+                            <option value="Truck Driver">Truck Driver</option>
+                            <option value="Delivery Driver">Delivery Driver</option>
+                            <option value="Warehouse Associate">Warehouse Associate</option>
+                            <option value="Forklift Operator">Forklift Operator</option>
+                            <option value="Logistics Coordinator">Logistics Coordinator</option>
+                            <option value="Dispatcher">Dispatcher</option>
+                            <option value="Route Planner">Route Planner</option>
+                            <option value="Freight Handler">Freight Handler</option>
+                            <option value="Inventory Specialist">Inventory Specialist</option>
+                            <option value="Customer Service Representative">Customer Service Representative</option>
+                            <option value="Operations Manager">Operations Manager</option>
+                            <option value="Team Leader">Team Leader</option>
+                            <option value="Other">Other (Please specify)</option>
+                        </select>
+                        <div id="other-position-container" style="display: none; margin-top: 10px;">
+                            <label for="other-position">Please specify:</label>
+                            <input type="text" id="other-position" name="other-position" placeholder="Enter position">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="hours">How Many hours can you work weekly? *</label>
+                        <input type="text" id="hours" name="hours" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="currentOccupation">Previous / Current Occupation</label>
+                    <input type="text" id="currentOccupation" name="currentOccupation">
+                </div>
+
+                <div class="form-group">
+                    <label for="currentWorkplace">Current work Place</label>
+                    <input type="text" id="currentWorkplace" name="currentWorkplace">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastWorkplace">Last place of work</label>
+                    <input type="text" id="lastWorkplace" name="lastWorkplace">
+                </div>
+
+                <div class="form-group">
+                    <label for="employmentDesire">Employment Desire</label>
+                    <select id="employmentDesire" name="employmentDesire" required>
+                        <option value="">Select an option</option>
+                        <option value="Full-Time">Full-Time</option>
+                        <option value="Part-Time">Part-Time</option>
+                    </select>
+                </div>
+
+                <div class="upload-section">
+                    <h3>Required Documents</h3>
+                    <div class="upload-grid">
+                        <div class="upload-card">
+                            <label for="licenseFront" class="upload-btn">
+                                <i class="fas fa-upload"></i>
+                                DRIVER LICENSE FRONT
+                            </label>
+                            <input type="file" id="licenseFront" name="licenseFront" accept="image/*" required>
+                            <span class="file-name" id="frontFileName">No file chosen</span>
+                        </div>
+                        <div class="upload-card">
+                            <label for="licenseBack" class="upload-btn">
+                                <i class="fas fa-upload"></i>
+                                DRIVER LICENSE BACK
+                            </label>
+                            <input type="file" id="licenseBack" name="licenseBack" accept="image/*" required>
+                            <span class="file-name" id="backFileName">No file chosen</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">SUBMIT APPLICATION</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#apply">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; <span id="current-year">2024</span> Platinum Logistics. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
